@@ -1,7 +1,27 @@
-.effects {
+.effects{
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type: lower-roman;
     box-sizing: border-box;
     background-color: skyblue;
 }
+#submit{
+    font-family: sans-serif;
+    font-size: 20px;
+    background-color: #279;
+    color: #fff;
+    border: 0px;
+    border-radius: 3px;
+    padding: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+#submit:hover{
+    background-color: #38a;
+}
+.box{
+    border-style: inset;
+    border-color: black;
+    border-width: medium;
+}
+
