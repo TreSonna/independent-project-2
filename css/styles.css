@@ -24,4 +24,10 @@
     border-color: black;
     border-width: medium;
 }
+.Bigs {
+    font-style: italic;
+    font-weight: bolder;
+    text-shadow: black;
+    text-underline-position: below;
+}     
 
