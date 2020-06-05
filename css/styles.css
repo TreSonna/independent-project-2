@@ -2,7 +2,6 @@
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type: lower-roman;
-    box-sizing: border-box;
     background-color: skyblue;
 }
 #submit{
@@ -30,4 +29,17 @@
     text-shadow: black;
     text-underline-position: below;
 }     
-
+.leftc {
+    float: left;
+    border-style: solid;
+}
+.rightc {
+    float: right
+}
+.headereffects {
+    background-color: black;
+    text-decoration-color: blanchedalmond;
+    border-style: double;
+    border-color: crimson;
+    color: whitesmoke;
+}
