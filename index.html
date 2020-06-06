@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
-  <div class="headereffects">
-        <head>
+    <head>
+    <div class="headereffects">
+        
             <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
             <link href="bootstrap/bootstrap.css" rel="stylesheet" type="text.css">
             <script src="js/scripts.js"></script>
-            <script src="jquery"></script>
             <title>Coding Language & Survey</title>
             <h1 Class="Bigs">Coding Language Survey</h1>
             <h2> Take This Survey & find the best coding langauage for you to explore!</h2>
@@ -22,7 +22,7 @@
                     <li><strong><em>C#</em></strong></li>
                     <li><strong><em>Ruby</em></strong></li>    
                 </ol>
-        </head>
+    </head>
     </div>
     <div class="effects">    
         <body>
@@ -67,18 +67,130 @@
                         like Smalltalk, is a perfect object-oriented language.
                     </p>
     </div>
-    <div class="box">                    
-            <h3><strong>Now Lets Start The Survey!</strong></h3>
-    </div> 
-    <div class="survey-container">
-        <div id="survey"></div>
-        <button id="previous">Previous Question</button>
-        <button id="next">Next Question</button>
-        <button id="submit">Submit Survey</button>
-        <div id="results"></div>
-    </div>    
-    </div>    
-        </body>        
+        <div class="box">                    
+                <h3><strong>Now Lets Start The Survey!</strong></h3>
+        </div>
+        </div> 
+    <div class="headereffects">
+            <div class="col-sm-12">
+                <div class="survey">
+                    <div class="survey-progress">
+                        <div class="survey-progress-bar progress"></div>
+                    </div>
+                    <div class="survey-bottom">
+                        <div class="survey-container">
+                            <div class="survey-page active" data-page="1">
+                                <div class="survery-content">
+                                    <div class="box">
+                                    <div class="survey-question">
+                                        <p>What originally caught your interest and motivated you to consider computer Programming?</p>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio01" data-item="1" name="radio1" value="A" />
+                                        <label for="radio01"><span></span><p>Money</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio02" data-item="1" name="radio1" value="blue" />
+                                        <label for="radio02"><span></span><p>Creativity</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio03" data-item="1" name="radio1" value="green" />
+                                        <label for="radio03"><span></span><p>Knowledge</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio04" data-item="1" name="radio1" value="purple" />
+                                        <label for="radio04"><span></span><p>The Growing Workforce</p></label>
+                                    </div>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div>
+                        <div class="survey-container"></div>
+                            <div class="survey-page" data-page="2">
+                                <div class="survery-content">
+                                    <div class="survey-question">
+                                        <p>Which one of these four activities would you rather do on your spare time?</p>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio05" data-item="2" name="radio2" value="A" />
+                                        <label for="radio05"><span></span><p>Play a Video Game</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio06" data-item="2" name="radio2" value="B" />
+                                        <label for="radio06"><span></span><p>Browse Social Media</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio07" data-item="2" name="radio2" value="C" />
+                                        <label for="radio07"><span></span><p>Work</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio08" data-item="2" name="radio2" value="D" />
+                                        <label for="radio08"><span></span><p>Study & Learn New Things</p></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey-page" data-page="3">
+                                <div class="survery-content">
+                                    <div class="survey-question">
+                                        <p>Would you sign up for epicodus?</p>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio09" data-item="3" name="radio3" value="A" />
+                                        <label for="radio09"><span></span><p>Yes</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio10" data-item="3" name="radio3" value="B" />
+                                        <label for="radio10"><span></span><p>100 Percent</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio11" data-item="3" name="radio3" value="C" />
+                                        <label for="radio11"><span></span><p>Definitly</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio12" data-item="3" name="radio3" value="D" />
+                                        <label for="radio12"><span></span><p>Of Course</p></label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="survey-page" data-page="4">
+                                <div class="survery-content">
+                                    <div class="survey-question">
+                                        <p> Wwat do you hope to gain from learning to code?</p>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio13" data-item="4" name="radio4" value="A" />
+                                        <label for="radio13"><span></span><p>For Funsies</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio14" data-item="4" name="radio4" value="B" />
+                                        <label for="radio14"><span></span><p>To add a new Skill</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio15" data-item="4" name="radio4" value="C" />
+                                        <label for="radio15"><span></span><p>To proceed to an accredtied educational institution for a degree</p></label>
+                                    </div>
+                                    <div class="survey-item">
+                                        <input type="radio" id="radio16" data-item="4" name="radio4" value="D" />
+                                        <label for="radio16"><span></span><p>To Earn a Future Professional Job Oppurtunity</p></label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                            <div class="survey-controller">
+                            <div class="prev-button">
+                                <button>Prev</button>
+                            </div>
+                            <div class="next-button">
+                                <button>Next</button>
+                            </div>
+                            <div class="finish-button">
+                                <button>Submit</button>
+                            </div>
+                            </div>
+                    </div>
+                </div>
+           </div> 
+    </body>        
 </html>
 
 

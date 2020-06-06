@@ -1,10 +1,10 @@
-.effects{
+.effects {
     font-size: medium;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     list-style-type: lower-roman;
     background-color: skyblue;
 }
-#submit{
+#submit {
     font-family: sans-serif;
     font-size: 20px;
     background-color: #279;
@@ -15,10 +15,10 @@
     cursor: pointer;
     margin-bottom: 20px;
 }
-#submit:hover{
+#submit:hover {
     background-color: #38a;
 }
-.box{
+.box {
     border-style: inset;
     border-color: black;
     border-width: medium;
@@ -43,3 +43,203 @@
     border-color: crimson;
     color: whitesmoke;
 }
+.survey {
+	margin-top: 75px;
+	margin-bottom: 50px;
+}
+
+.survey-container {
+	width: 100%;
+	min-height: 600px;
+}
+
+.survey-page {
+	display: none;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: 100;
+	padding: 40px;
+}
+
+.survey-page.active {
+	display: block;
+}
+
+.survey-controller {
+	position: relative;
+    height: 60px;
+    background: #333;
+    padding: 12px 14px;
+}
+
+.back-button {
+	display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.prev-button {
+	display: inline-block;
+    position: relative;
+    float: left;
+}
+
+.next-button {
+	display: inline-block;
+	opacity: 0.25;
+    position: relative;
+    float: right;
+}
+
+.finish-button {
+	display: none;
+    position: relative;
+    float: right;
+}
+
+.finish-button button {
+	background: #3DD2AF !important;
+    color: #fff;
+}
+
+.survey-controller button {
+    border: none;
+    padding: 8px 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+}
+.survey-progress {
+	width: 100%;
+	height: 30px;
+	overflow: hidden;
+}
+
+.progress {
+	transition: width 0.5s ease-in-out;
+}
+
+.survey-progress-bar {
+	height: 30px;
+    width: 0%;
+    background: linear-gradient(to left, #4CB8C4, #3CD3AD);
+}
+
+.survey-q {
+	list-style-type: none;
+	padding: 0px;
+}
+
+.survey-q li {
+	display: block;
+	margin-bottom: 10px;
+	width: 100%;
+	background: black
+}
+
+.survey-q li input {
+	width: 100%;
+}
+
+.survery-content label {
+	width: 100%;
+	padding: 10px 10px;
+	margin: 0px !important;
+}
+
+.survery-content label:hover {
+	cursor: pointer;
+}
+
+.survey-question {
+	min-height: 100px;
+}
+
+.survey-question p {
+	font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 20px;
+    line-height: 40px;
+}
+
+.survery-content label p {
+	display: inline-block;
+    position: relative;
+    top: 2px;
+    left: 5px;
+    margin: 0px;
+}
+
+input[type="radio"] {
+	display: none;
+}
+
+input[type="radio"] + label {
+	color: #292321;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+input[type="radio"] + label span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	margin: 2px 4px 0 0;
+	vertical-align: middle;
+	cursor: pointer;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+input[type="radio"] + label span {
+ 	background-color: #333;
+}
+
+input[type="radio"]:checked + label span {
+	border: 2px solid #3DD2AF;
+	background: transparent;
+}
+
+input[type="radio"] + label span,
+input[type="radio"]:checked + label span {
+	-webkit-transition: background-color 0.20s ease-in-out;
+	-o-transition: background-color 0.20s ease-in-out;
+	-moz-transition: background-color 0.20s ease-in-out;
+	transition: background-color 0.20s ease-in-out;
+}
+
+.survey-item {
+	background: #fff;
+	margin-bottom: 15px;
+	border-bottom: 1px solid rgba(33,33,33,0.15);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.prev-button button:focus, .mm-next-button button:focus, .mm-finish-btn button:focus {
+	outline: none;
+	border: none;
+}
+
+.survey.okay .next-button {
+	display: inline-block;
+	opacity: 1;
+}
+
+.finish-button.active {
+	display: inline-block;
+}
+
+.survey-results {
+	display: none;
+}
+.item-number {
+	height: 40px;
+	position: relative;
+	padding: 17px;
+	background: #333;
+	color: #fff;
+}
+
+.item-info {
+	float: right;
+}
+
