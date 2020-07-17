@@ -10,7 +10,7 @@ HTML
 CSS
 Jquery
 Javascript
-Bootstrap
+Bootstrap.
 ##Bugs
 Currently Struggling on getting the next button to function with its script, and need to add the ending survey statements and results also which will be done by end of day.
 ## For Additional Support
